@@ -1,0 +1,9 @@
+<templateSet group="user">
+    <template name="pvar" value="@php&#10;    /** @var $START$ $END$ */&#10;@endphp" description="Blade @php /** @var" toReformat="false" toShortenFQNames="true">
+        <variable name="START" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+        </context>
+    </template>
+</templateSet>
+
